@@ -1,3 +1,4 @@
+import Button from '../Button'
 import './navbar.css'
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
             </div>
             <div>
                 <button type='button'>Login</button>
-                <button type='button'>Sign up</button>
+                <Button text={'Sign Up'}/>
             </div>
         </nav>
       </header>

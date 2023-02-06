@@ -47,11 +47,3 @@ header nav div button {
 header nav div button:first-child {
     color: var(--Grayish_Violet);
 }
-
-header nav div button:last-child {
-    background-color: var(--Cyan);
-    padding: 0.5rem;
-    width: 7rem;
-    border-radius: 10px;
-    color: white;
-}
