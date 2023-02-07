@@ -1,0 +1,31 @@
+@import url(../../Styles/style.css);
+
+section {
+  padding: 1rem;
+  width: 100 vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section div img {
+  align-self: flex-end;
+  width: 40vw;
+}
+
+section div h2 {
+ font-size: xxx-large;
+ font-weight: 700;
+ color: var( --Very_Dark_Violet);
+}
+
+section div p {
+color: var(--Grayish_Violet);
+}

@@ -1,7 +1,12 @@
-button {
-  background-color: var(--Cyan);
+@import url(../../Styles/style.css);
+
+.btn-component {
+  background-color:var(--Cyan);
   padding: 0.5rem;
   width: 7rem;
   border-radius: 10px;
+  font-weight: 700;
   color: white;
+  border: none;
+  cursor: pointer;
 }
