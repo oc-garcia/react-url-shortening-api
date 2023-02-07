@@ -1,6 +1,6 @@
 import Button from '../Button'
 import pic from './illustration-working.svg'
-import './hero.module.css'
+import './hero.css'
 
 const Hero = () => {
     return(

@@ -1,0 +1,15 @@
+.shortly-container {
+  padding: 2rem;
+  background-image: url(./bg-shorten-desktop.svg);
+  background-color: var(--Very_Dark_Blue);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 2rem;
+}
+
+.shortly-container input {
+  padding: 0.45rem;
+  border-radius: 5px;
+  border: none;
+}
