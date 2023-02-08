@@ -26,4 +26,5 @@
 
 .heroContainer div p {
 color: var(--Grayish_Violet);
+margin-bottom: 1rem;
 }

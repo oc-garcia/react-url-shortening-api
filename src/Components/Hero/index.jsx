@@ -7,7 +7,7 @@ const Hero = () => {
         <section className={style.heroContainer}>
             <div>
                 <h2>More than just shorter links</h2>
-                <p>BUild your brand's recognition and get detailed insights on how links are performing.</p>
+                <p>Build your brand's recognition and get detailed insights on how links are performing.</p>
                 <Button text='Get started'/>
             </div>
             <div>
