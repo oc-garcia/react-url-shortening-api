@@ -1,0 +1,37 @@
+.footerContainer {
+  padding: 2rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: var(--Very_Dark_Violet);
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+
+}
+
+ul {
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  color: var(--Grayish_Violet);
+  font-weight: 500;
+  font-size: medium;
+}
+
+.listItem:hover {
+  cursor: pointer;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}

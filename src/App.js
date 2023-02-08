@@ -1,3 +1,5 @@
+import Boost from "./Components/Boost";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import ShortlyBar from "./Components/ShortlyBar";
@@ -12,6 +14,8 @@ function App() {
       <Hero />
       <ShortlyBar />
       <Statistics />
+      <Boost />
+      <Footer/>
     </>
   );
 }

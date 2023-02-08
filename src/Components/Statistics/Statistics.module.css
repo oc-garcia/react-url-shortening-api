@@ -18,9 +18,10 @@
 }
 
 .cardContainer {
+  margin-top: 1rem;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 25rem;
 }
@@ -30,7 +31,7 @@
   padding: 2rem 1rem 1rem 1rem;
   position: relative;
   width: 30%;
-  height: 15rem;
+  height: 16rem;
   border-radius: 5px;
 }
 
@@ -47,7 +48,11 @@
   width: 3rem;
 }
 
-.dash
+.dash{
+  width: 3rem;
+  height: 0.5rem;
+  background-color: var(--Cyan);
+}
 
 .img1 {
   background-image: url(./icon-brand-recognition.svg);

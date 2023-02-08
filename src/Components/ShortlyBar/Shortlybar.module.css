@@ -5,7 +5,8 @@
 .inputContainer {
   padding: 2rem;
   background-image: url(./bg-shorten-desktop.svg);
-  background-color: var(--Very_Dark_Blue);
+  background-color: var(--Dark_Violet);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-around;
