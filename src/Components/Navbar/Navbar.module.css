@@ -2,15 +2,14 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 header nav div {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 50vw;
+    width: 50%;
 }
 
 header nav div h1 {

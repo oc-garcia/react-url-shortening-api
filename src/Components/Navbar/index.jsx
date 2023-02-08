@@ -1,6 +1,6 @@
 import Button from '../Button'
 
-import './navbar.css'
+import './Navbar.module.css'
 
 const Navbar = () => {
     return (

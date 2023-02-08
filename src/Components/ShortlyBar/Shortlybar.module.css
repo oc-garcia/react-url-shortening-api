@@ -1,14 +1,20 @@
-.shortly-container {
+.background{
+  background: linear-gradient(white 50%, var(--Gray) 50%);
+}
+
+.inputContainer {
   padding: 2rem;
   background-image: url(./bg-shorten-desktop.svg);
   background-color: var(--Very_Dark_Blue);
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border-radius: 5px;
   margin: 0 2rem;
 }
 
-.shortly-container input {
+.inputContainer input {
+  width: 70%;
   padding: 0.45rem;
   border-radius: 5px;
   border: none;
