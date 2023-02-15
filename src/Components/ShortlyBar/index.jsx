@@ -17,7 +17,7 @@ const { register, handleSubmit, formState: { errors } } = useForm();
   let response = await fetch(url)
   let data = await response.json();
   console.log(data)
-setListOfLinks([{link1: data.result.share_link, link2: data.result.short_link2}])
+setListOfLinks([...listOfLinks, {linkOriginal: data.result.original_link, linkShort: data.result.short_link2}])
   }
     return (
         <>
@@ -34,7 +34,7 @@ setListOfLinks([{link1: data.result.share_link, link2: data.result.short_link2}]
                 <Button text="Shorten it!"/>          
             </form>
         </div>
-        {listOfLinks.map(link => <ReturnedLinks link1={link.link1} link2={link.link2} />)}
+        {listOfLinks.map(link => <ReturnedLinks key={link.linkOriginal} linkOriginal={link.linkOriginal} linkShort={link.linkShort} />)}
         </>
     )
 }
