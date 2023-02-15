@@ -1,4 +1,4 @@
-.background{
+.background {
   background: linear-gradient(white 50%, var(--Gray) 50%);
 }
 
@@ -22,7 +22,7 @@
 }
 
 .inputContainer div span {
-  color:var(--Red);
+  color: var(--Red);
   font-size: small;
   position: absolute;
   top: 2.5rem;
@@ -45,4 +45,22 @@
 
 .input_error::placeholder {
   color: var(--Red);
+}
+
+@media only screen and (max-width: 700px) {
+  .inputContainer {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .inputContainer div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .inputContainer div span {
+    top: 2.6rem;
+  }
 }

@@ -28,3 +28,28 @@
 color: var(--Grayish_Violet);
 margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 700px) {
+.heroContainer {
+  flex-direction:column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContainer div {
+  align-items: center;
+}
+
+.heroContainer div img {
+ width: 100%;
+}
+
+.heroContainer div h2 {
+text-align: center;
+}
+
+.heroContainer div p {
+  text-align: center;
+}
+
+}

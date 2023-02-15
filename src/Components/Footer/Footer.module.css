@@ -35,3 +35,28 @@ ul {
   justify-content: space-around;
   width: 20%;
 }
+
+@media only screen and (max-width: 700px) {
+.footerContainer {
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+}
+
+.list{
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+.logoContainer{
+  width: 100%;
+}
+
+}

@@ -48,7 +48,7 @@
   width: 3rem;
 }
 
-.dash{
+.dash {
   width: 3rem;
   height: 0.5rem;
   background-color: var(--Cyan);
@@ -59,7 +59,7 @@
 }
 
 .img2 {
-    background-image: url(./icon-detailed-records.svg);
+  background-image: url(./icon-detailed-records.svg);
 }
 
 .img3 {
@@ -72,4 +72,26 @@
 
 .card:last-child {
   align-self: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+  .cardContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .statisticsContainer h3,
+  .statisticsContainer p {
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .dash {
+    width: 0.5rem;
+    height: 3rem;
+  }
 }

@@ -23,3 +23,54 @@
 .short {
     color: var(--Cyan);
 }
+
+.button {
+  background-color:var(--Cyan);
+  padding: 0.5rem;
+  width: 7rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button_copied {
+  background-color:var(--Dark_Violet);
+  padding: 0.5rem;
+  width: 7rem;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+.container {
+  flex-direction: column;
+}
+
+.original{
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid var(--Gray);
+  padding-bottom: 0.5rem;
+}
+
+.container button {
+  margin-left: 0;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.short {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+}
+
+}
+

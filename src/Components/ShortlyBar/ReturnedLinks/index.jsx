@@ -16,7 +16,7 @@ export default function ReturnedLinks({linkOriginal, linkShort}) {
         <p className={styles.original}>{linkOriginal}</p>
         <div className={styles.container}>
           <p className={styles.short}>{linkShort}</p>
-          <button onClick={copyToClipboard}>{copied ? 'Copied!' : 'Copy to clipboard'}</button>
+          <button className={copied ? styles.button_copied : styles.button} onClick={copyToClipboard}>{copied ? 'Copied!' : 'Copy'}</button>
         </div>
       </div>
     </div>

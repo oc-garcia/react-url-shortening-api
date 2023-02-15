@@ -44,3 +44,18 @@ header nav div button {
 header nav div button:first-child {
     color: var(--Grayish_Violet);
 }
+
+@media only screen and (max-width: 700px) {
+header nav {
+flex-direction: column;
+}
+header nav div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header nav div a, header nav div button {
+    margin: 0;
+}
+}
