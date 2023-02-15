@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-url-shortening-api/static/css/main.bc58bd0a.css",
+    "main.css": "/react-url-shortening-api/static/css/main.9b93f31c.css",
     "main.js": "/react-url-shortening-api/static/js/main.4f4fabfd.js",
     "static/media/illustration-working.svg": "/react-url-shortening-api/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
     "static/media/logo.svg": "/react-url-shortening-api/static/media/logo.f4ffcbaea8b8e859063c670a1d640ac0.svg",
@@ -14,11 +14,11 @@
     "static/media/icon-twitter.svg": "/react-url-shortening-api/static/media/icon-twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
     "index.html": "/react-url-shortening-api/index.html",
     "static/media/icon-facebook.svg": "/react-url-shortening-api/static/media/icon-facebook.229c75a01827343aef31ae916e2ec18a.svg",
-    "main.bc58bd0a.css.map": "/react-url-shortening-api/static/css/main.bc58bd0a.css.map",
+    "main.9b93f31c.css.map": "/react-url-shortening-api/static/css/main.9b93f31c.css.map",
     "main.4f4fabfd.js.map": "/react-url-shortening-api/static/js/main.4f4fabfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc58bd0a.css",
+    "static/css/main.9b93f31c.css",
     "static/js/main.4f4fabfd.js"
   ]
 }
