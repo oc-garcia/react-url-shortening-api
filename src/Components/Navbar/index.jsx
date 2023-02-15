@@ -5,9 +5,9 @@ import './Navbar.module.css'
 const Navbar = () => {
     return (
       <header>
-        <nav>
+        <nav> 
+          <h1>Shortly</h1>
             <div>
-                <h1>Shortly</h1>
                 <a href='/'>Features</a>
                 <a href='/'>Pricing</a>
                 <a href='/'>Resourcer</a>

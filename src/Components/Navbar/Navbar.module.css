@@ -12,10 +12,11 @@ header nav div {
     width: 50%;
 }
 
-header nav div h1 {
+header nav h1 {
 font-weight: 700;
 font-size: x-large;
 color: var(--Very_Dark_Violet);
+margin-right: 1rem;
 }
 
 header nav div:last-child {
@@ -49,13 +50,18 @@ header nav div button:first-child {
 header nav {
 flex-direction: column;
 }
+
 header nav div {
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-header nav div a, header nav div button {
+header nav div a, header nav div button, header nav h1  {
     margin: 0;
+}
+
+header nav div {
+    display: none;
 }
 }
