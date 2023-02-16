@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
       <header>
         <nav> 
-          <h1>Shortly</h1>
+          <h1 className='cursor-pointer'>Shortly</h1>
             <div>
                 <a href='/'>Features</a>
                 <a href='/'>Pricing</a>

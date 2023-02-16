@@ -17,7 +17,7 @@ const { register, handleSubmit, formState: { errors } } = useForm();
   let response = await fetch(url)
   let data = await response.json();
   console.log(data)
-setListOfLinks([...listOfLinks, {linkOriginal: data.result.original_link, linkShort: data.result.short_link2}])
+  setListOfLinks([...listOfLinks, {linkOriginal: data.result.original_link, linkShort: data.result.short_link2}])
   }
     return (
         <>
